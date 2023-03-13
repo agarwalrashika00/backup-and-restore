@@ -1,0 +1,5 @@
+mysqldump -u root -p testdatabase > c:\backup\testdata_130323.sql
+
+CREATE DATABASE RESTORED
+USE RESTORED
+source c:\backup\testdata_130323.sql
